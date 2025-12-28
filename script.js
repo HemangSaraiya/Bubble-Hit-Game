@@ -7,12 +7,12 @@ res.onclick=function(){
 start.onclick=function(){
 function makebubble(){
     let count="";
-for(let i=0;i<=159;i++){
+for(let i=0;i<=143;i++){
    count+= `<div class="bubble">${Math.floor(Math.random()*10)}</div>`;
 }
 document.querySelector(".down").innerHTML=count;
 }
-let time=60;
+let time=40;
 function timer(){
     let tem =setInterval(function(){
         if(time>0){
