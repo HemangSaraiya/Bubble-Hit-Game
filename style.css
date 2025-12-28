@@ -89,9 +89,10 @@ body,html{
 }
 @media (max-width: 600px) {
 .up{
-    flex-direction: row;
-    gap: 2px;
-    padding: 2px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
 }
     .container{
         width: 95%;
