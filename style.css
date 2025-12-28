@@ -97,6 +97,10 @@ body,html{
         width: 95%;
         height: 95vh;       
     }
+    .up h2{
+        font-size: 1rem;
+        margin: 0;
+    }
 
 
     .bubble{
@@ -108,5 +112,7 @@ body,html{
     .down{
         gap: 6px;
         padding: 6px;
+        flex: 1;
+        overflow-y: auto;
     }
 }
