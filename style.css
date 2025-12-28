@@ -89,18 +89,20 @@ body,html{
 }
 @media (max-width: 600px) {
 .up{
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-
+    flex-direction: row;
+    gap: 2px;
+    padding: 2px;
 }
     .container{
         width: 95%;
-        height: 95vh;       
+        height: 90vh;       
     }
     .up h2{
         font-size: 1rem;
         margin: 0;
+    }
+    .ele{
+        gap:3px;
     }
 
 
